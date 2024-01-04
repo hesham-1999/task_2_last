@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlmodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weatehers>
+    <Weateher>
+      <sunSetTime>12:30:29 PM</sunSetTime>
+      <sunRaiseTime>11:36:09 PM</sunRaiseTime>
+      <Location>
+        <name>King-Kong</name>
+        <region>Campeche</region>
+        <country>Mexico</country>
+        <localtime>2024-01-04 6:06</localtime>
+        <lat>18.53</lat>
+        <lon>-89.62</lon>
+      </Location>
+      <current>
+        <temp_c>17.5</temp_c>
+        <temp_f>63.6</temp_f>
+        <wind_mph>2.2</wind_mph>
+        <wind_kph>3.6</wind_kph>
+        <wind_dir>SSW</wind_dir>
+        <cloud>100</cloud>
+        <condition>
+          <text>Fog</text>
+          <icon>//cdn.weatherapi.com/weather/64x64/night/248.png</icon>
+        </condition>
+      </current>
+    </Weateher>
+    <Weateher>
+      <sunSetTime>4:50:09 AM</sunSetTime>
+      <sunRaiseTime>3:09:13 PM</sunRaiseTime>
+      <Location>
+        <name>Cairo</name>
+        <region>Al Qahirah</region>
+        <country>Egypt</country>
+        <localtime>2024-01-04 14:08</localtime>
+        <lat>30.05</lat>
+        <lon>31.25</lon>
+      </Location>
+      <current>
+        <temp_c>19</temp_c>
+        <temp_f>66.2</temp_f>
+        <wind_mph>6.9</wind_mph>
+        <wind_kph>11.2</wind_kph>
+        <wind_dir>N</wind_dir>
+        <cloud>75</cloud>
+        <condition>
+          <text>Overcast</text>
+          <icon>//cdn.weatherapi.com/weather/64x64/day/122.png</icon>
+        </condition>
+      </current>
+    </Weateher>
+  </Weatehers>
+</xmlmodel>
